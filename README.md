@@ -15,28 +15,6 @@ This project implements a **Retrieval-Augmented Generation (RAG) System**, combi
 - **Database**: Vector Database (FAISS, Pinecone, or ChromaDB)
 - **Deployment**: FastAPI/Flask (Optional)
 
-## 📂 Project Structure
-```
-📁 Implementation-of-RAG/
-├── 📂 data/              # Dataset for retrieval
-├── 📂 models/            # Pretrained LLM and embedding models
-├── 📂 scripts/           # Core scripts for RAG implementation
-│   ├── retriever.py      # Document retrieval logic
-│   ├── generator.py      # Response generation logic
-│   ├── main.py           # Main application script
-├── requirements.txt      # Dependencies
-├── README.md             # Project documentation
-```
-
-## 🔧 Installation
-```sh
-# Clone the repository
-git clone https://github.com/your-username/Implementation-of-RAG.git
-cd Implementation-of-RAG
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ## 🏃‍♂️ Usage
 1. **Prepare the Dataset**: Place the text documents in the `data/` folder.
